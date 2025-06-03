@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Website Sederhana - maden77</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f6f8fa;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background: #24292f;
+      color: #fff;
+      padding: 16px;
+      text-align: center;
+    }
+    nav {
+      background: #0366d6;
+      padding: 10px 0;
+      text-align: center;
+    }
+    nav a {
+      color: #fff;
+      margin: 0 16px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    nav a:hover {
+      text-decoration: underline;
+    }
+    main {
+      max-width: 700px;
+      margin: 40px auto;
+      background: #fff;
+      border-radius: 8px;
+      padding: 32px;
+      box-shadow: 0 4px 12px rgba(36,41,47,.07);
+    }
+    button {
+      background: #2ea44f;
+      color: #fff;
+      border: none;
+      padding: 12px 32px;
+      border-radius: 5px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 24px;
+    }
+    button:hover {
+      background: #22863a;
+    }
+    footer {
+      background: #24292f;
+      color: #fff;
+      text-align: center;
+      padding: 12px;
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Selamat Datang di Website Sederhana</h1>
+    <p>by <strong>maden77</strong></p>
+  </header>
+  <nav>
+    <a href="#beranda">Beranda</a>
+    <a href="#tentang">Tentang</a>
+    <a href="#kontak">Kontak</a>
+  </nav>
+  <main>
+    <section id="beranda">
+      <h2>Beranda</h2>
+      <p>Ini adalah contoh website sederhana yang dibangun dengan HTML, CSS, dan JavaScript. Kamu dapat mengembangkan website ini sesuai kebutuhanmu.</p>
+      <button onclick="tampilkanPesan()">Klik Saya!</button>
+    </section>
+    <section id="tentang" style="margin-top:40px;">
+      <h2>Tentang</h2>
+      <p>Website ini dibuat sebagai contoh sederhana untuk dipakai di GitHub Pages. Kamu bisa mengedit isi, menambah halaman, atau mengubah tampilannya sesuai keinginan.</p>
+    </section>
+    <section id="kontak" style="margin-top:40px;">
+      <h2>Kontak</h2>
+      <p>Hubungi saya di: <a href="mailto:maden77@gmail.com">maden77@gmail.com</a></p>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 maden77. Dibuat dengan ❤️ menggunakan GitHub Pages.
+  </footer>
+  <script>
+    function tampilkanPesan() {
+      alert("Halo, ini pesan dari tombol! Selamat mencoba :)");
+    }
+  </script>
+</body>
+</html>
